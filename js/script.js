@@ -13,8 +13,9 @@ function onTabClick(e) {
   // Hide all panels
   panels.forEach(panel => panel.classList.add('hidden'));
 
-  //   Activate a new tab and panel based on the targer
+  //   Activate a new tab and panel based on the target
 
   e.target.classList.add('border-softRed', 'border-b-4');
   const classString = e.target.getAttribute('data-target');
+  document.getElementById('panels').getElementsByClassName(classString)[0].classList.remove('hidden');
 }
