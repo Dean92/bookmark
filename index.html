@@ -17,7 +17,7 @@
       <div class="my-6 flex items-center justify-between space-x-20">
         <!-- Logo -->
         <div class="z-30">
-          <img src="images/logo-bookmark.svg" alt="" id="logo" />
+          <img src="images/logo-bookmark.svg" alt="bookmark" id="logo" />
         </div>
 
         <!-- Menu Items -->
@@ -26,6 +26,25 @@
           <a href="#download" class="tracking-widest hover:text-softRed">Download</a>
           <a href="#faq" class="tracking-widest hover:text-softRed">FAQ</a>
           <a href="#" class="rounded-lg border-2 border-softRed bg-softRed px-8 py-2 text-white shadow-md hover:bg-white hover:text-softRed">Login</a>
+        </div>
+        <!-- Hamburger Button -->
+        <button id="menu-btn" class="hamburger z-30 block focus:outline-none md:hidden"><span class="hamburger-top"></span><span class="hamburger-middle"></span><span class="hamburger-bottom"></span></button>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="menu" class="m-h-screen fixed inset-0 z-20 flex hidden h-full w-full flex-col items-center divide-y divide-gray-500 self-end bg-veryDarkBlue px-6 py-1 pt-24 pb-4 uppercase tracking-widest text-white opacity-90">
+        <div class="w-full py-3 text-center">
+          <div class="w-full py-3 text-center">
+            <a href="#features" class="block hover:text-softRed">Features</a>
+          </div>
+          <div class="w-full py-3 text-center">
+            <a href="#download" class="block hover:text-softRed">Download</a>
+          </div>
+          <div class="w-full py-3 text-center">
+            <a href="#faq" class="block hover:text-softRed">FAQ</a>
+          </div>
+          <div class="w-full py-3 text-center">
+            <a href="#" class="block hover:text-softRed">Login</a>
+          </div>
         </div>
       </div>
     </nav>
